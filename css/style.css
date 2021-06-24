@@ -48,7 +48,9 @@ table {
 }
 
 /* END Reset CSS */
-
+*{
+	box-sizing: border-box;
+}
 /* Helper Classes Begin */
 .alignLeft{
 	float: left;
@@ -96,4 +98,15 @@ body{
 }
 h1{
 	font-size: 25px;
+}
+#hero{
+	background-image: url("../img/hero-bg.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+h2{
+	font-size: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
