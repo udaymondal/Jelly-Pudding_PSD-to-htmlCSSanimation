@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,90 +91,138 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+
 /* END Reset CSS */
-*{
+
+* {
 	box-sizing: border-box;
 }
+
+
 /* Helper Classes Begin */
-.alignLeft{
+
+.alignLeft {
 	float: left;
 }
-.alignRight{
+
+.alignRight {
 	float: right;
 }
-.margin-bottom-10{
+
+.margin-bottom-10 {
 	margin-bottom: 10px;
 }
-.margin-bottom-20{
+
+.margin-bottom-20 {
 	margin-bottom: 20px;
 }
-.margin-bottom-30{
+
+.margin-bottom-30 {
 	margin-bottom: 30px;
 }
-.margin-bottom-40{
+
+.margin-bottom-40 {
 	margin-bottom: 40px;
 }
-strong
-b{
+
+strong b {
 	font-weight: 700;
 }
-em
-i{
+
+em i {
 	font-style: italic;
 }
-p, 
+
+p,
 ul li,
-ol li{
+ol li {
 	font-size: 16px;
 	line-height: 23px;
 	margin-bottom: 20px;
 	font-family: 'Roboto';
 }
+
+
 /* Helper Classes End */
 
-body{
+body {
 	font-family: 'Montserrat', sans-serif;
 }
-.container{
+
+.container {
 	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
 }
-h1{
+
+h1 {
 	font-size: 25px;
 }
-#hero{
+
+#hero {
 	background-image: url("../img/hero-bg.png");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 }
-h2{
+
+h2 {
 	font-size: 52px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
 }
