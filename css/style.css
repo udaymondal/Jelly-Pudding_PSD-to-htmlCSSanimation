@@ -198,6 +198,8 @@ body {
 	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
 }
 
 h1 {
@@ -205,10 +207,14 @@ h1 {
 }
 
 #hero {
-	background-image: url("../img/hero-bg.png");
+	background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url("../img/hero-bg.png");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+}
+#hero h2{
+	color: white;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -233,4 +239,24 @@ h2 {
 .nav li a:hover{
 	border-bottom: 4px solid white;
 	transition: border-bottom 0.1s, color 0.1s;
+}
+.cta{
+	display: inline-block;
+	margin-top: 40px;
+	position: relative;
+}
+.imgs{
+	float: right;
+	position: absolute;
+	right: -135px;
+}
+.iphone{
+	width: 85%;
+	position: relative;
+	margin-bottom: -240px;
+}
+.cta-info{
+	width: 60%;
+	padding-right: 150px;
+	float: left;
 }
