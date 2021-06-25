@@ -225,4 +225,12 @@ h2 {
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
+	margin-left: 30px;
+	border-bottom: 4px solid white transparent;
+	padding-bottom: 3px;
+	transition: border-bottom 0.1s, color 0.1s;
+}
+.nav li a:hover{
+	border-bottom: 4px solid white;
+	transition: border-bottom 0.1s, color 0.1s;
 }
